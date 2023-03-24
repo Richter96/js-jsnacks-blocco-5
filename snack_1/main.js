@@ -9,27 +9,27 @@ const zucchine = [
     {
         varietà: 'tonda',
         lunghezza: 10,
-        peso: 0.1
+        peso: 1
     },
     {
         varietà: 'trombetta',
         lunghezza: 10,
-        peso: 0.5
+        peso: 2
     },
     {
         varietà: 'napoletana',
         lunghezza: 10,
-        peso: 0.3
+        peso: 2
     },
     {
         varietà: 'tonda',
         lunghezza: 10,
-        peso: 0.4
+        peso: 2
     },
     {
         varietà: 'trombetta',
         lunghezza: 10,
-        peso: 0.2
+        peso: 1
     }
 ]
 
