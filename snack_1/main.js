@@ -37,11 +37,12 @@ const zucchine = [
 
 let sumZucchine = 0
 
-// creo un ciclo per prendere elementi peso
+// creo un ciclo per prendere elementi elementi dall'arrey
 zucchine.forEach(element => {
+    // destrutturo element per prendere solo alcune proprietà di ogni oggetto zucchine
     const {peso} = element
     console.log(peso)
-
+ // faccio la somma delle proprietà 
     sumZucchine += peso
 });
 
