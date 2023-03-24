@@ -4,7 +4,11 @@ un array e due numeri ("a" più piccolo di "b" e "b" grande al massimo quanto il
 La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra "a" e "b" 
 */
 
-Array nomi
+const nomi = [
+    'clsudio',
+    'giuseppe',
+    'riccardo'
+]
 
 function myfunction(...parametri) {
     console.log(parametri)
@@ -12,8 +16,4 @@ function myfunction(...parametri) {
 
 
 
-myfunction([
-    'clsudio',
-    'giuseppe',
-    'riccardo'
-], 2, 3)
+myfunction([ nomi ], 2, nomi.length)
